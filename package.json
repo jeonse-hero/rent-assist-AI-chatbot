@@ -16,7 +16,12 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@google-cloud/firestore": "^7.8.0",
+    "@google-cloud/language": "^6.4.0",
+    "@google-cloud/storage": "^7.11.2",
+    "@google-cloud/vision": "^4.3.0",
     "next": "14.1.4",
+    "openai": "^4.52.0",
     "react": "^18",
     "react-dom": "^18"
   },
@@ -25,8 +30,8 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "autoprefixer": "^10.4.19",
     "@vercel/analytics": "^1.2.2",
+    "autoprefixer": "^10.4.19",
     "eslint": "^8",
     "eslint-config-next": "14.1.4",
     "husky": "^9.0.11",
