@@ -22,6 +22,7 @@ jobs:
           node-version: latest
 
       - run: npm i -g pnpm yarn bun @antfu/ni
+      - run: pnpm install --no-frozen-lockfile  
       - run: nlx taze major -w -i
 
       - name: Create Pull Request
